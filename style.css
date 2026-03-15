@@ -1,0 +1,11 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+    overflow: hidden; /* 防止滾動條出現 */
+}
+
+/* 確保 p5.js 畫布能填滿整個視窗 */
+canvas {
+    display: block; /* 移除 canvas 底部預設的空白 */
+}
